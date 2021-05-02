@@ -7,8 +7,31 @@
     </head>
     <body>
         
+        <div class="form-container">
+
+        <form id="create-workout-form" style="">
+            <h3>Create a Workout!</h3>
+        
+            <input id='input-title' type="text" name="title" value="" placeholder="Enter your workout name..." class="input-text">
+            <br><br>
+            <textarea id='input-description' name="description" rows="8" cols="80" value="" placeholder="Enter your workout description..."></textarea>
+            <br><br>
+        
+            <p>Choose A Category</p>
+            <select id="categories" name="categories">
+              <option value="1">BJJ</option>
+              <option value="2">Lifting</option>
+              <option value="3">Bodyweight</option>
+            </select>
+            <br><br>
+        
+            <input id= 'create-button' type="submit" name="submit" value="Create New Workout" class="submit">
+          </form>
+        
+        </div>
+
         <div id="workout-container">
-            
+
         </div>
 
 
